@@ -27,7 +27,7 @@ body {
   background:
     radial-gradient(circle at top left, rgba(255, 224, 156, 0.55), transparent 34rem),
     linear-gradient(180deg, var(--cream), #fffaf2 42%, #f5dfb8);
-  font-family: "Nunito Sans", Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-size: 17px;
   line-height: 1.6;
 }
@@ -132,7 +132,8 @@ h2,
 h3 {
   margin: 0;
   color: var(--chocolate);
-  font-family: "Fraunces", Georgia, serif;
+  font-family: "Bree Serif", Georgia, serif;
+  font-weight: 400;
   line-height: 1.05;
   letter-spacing: 0;
 }
@@ -321,23 +322,10 @@ p {
   text-align: center;
 }
 
-.cakes-hero {
-  display: grid;
-  min-height: 520px;
-  align-items: end;
-  padding: 42px;
-  color: var(--white);
-  background:
-    linear-gradient(90deg, rgba(39, 25, 21, 0.78), rgba(39, 25, 21, 0.16)),
-    url("assets/ijstaart-eenhoorn.png") center/cover;
-  border-radius: 8px;
-  box-shadow: var(--shadow);
-}
-
-.cakes-hero h1,
-.cakes-hero p,
-.cakes-hero .eyebrow {
-  color: var(--white);
+.cakes-page-hero {
+  min-height: auto;
+  padding-top: 58px;
+  padding-bottom: 58px;
 }
 
 .flavors-layout {
@@ -574,11 +562,6 @@ time {
   .card img {
     height: auto;
     max-height: 520px;
-  }
-
-  .cakes-hero {
-    min-height: 430px;
-    padding: 28px;
   }
 
   .map-panel,
