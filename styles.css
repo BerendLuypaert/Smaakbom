@@ -333,7 +333,8 @@ p {
   padding-bottom: 58px;
 }
 
-.cakes-page-hero .button {
+.cakes-page-hero .button,
+.foodtruck-hero .button {
   margin-top: 28px;
 }
 
