@@ -333,6 +333,10 @@ p {
   padding-bottom: 58px;
 }
 
+.cakes-page-hero .button {
+  margin-top: 28px;
+}
+
 .flavors-layout {
   display: grid;
   grid-template-columns: minmax(260px, 0.78fr) minmax(0, 1fr);
