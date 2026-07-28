@@ -466,6 +466,16 @@ dd {
   gap: 18px;
 }
 
+.blog-page .blog-list {
+  text-align: center;
+}
+
+.blog-page .blog-post p {
+  max-width: 680px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .featured-post {
   display: grid;
   grid-template-columns: minmax(260px, 0.9fr) minmax(0, 1fr);
