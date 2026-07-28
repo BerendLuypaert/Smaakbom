@@ -338,6 +338,10 @@ p {
   margin-top: 28px;
 }
 
+.spaced-button {
+  margin-top: 28px;
+}
+
 .flavors-layout {
   display: grid;
   grid-template-columns: minmax(260px, 0.78fr) minmax(0, 1fr);
